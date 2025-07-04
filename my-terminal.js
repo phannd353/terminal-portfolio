@@ -91,9 +91,6 @@ function ready() {
     .resume();
 }
 
-figlet.defaults({ fontPath: 'https://unpkg.com/figlet/fonts/' });
-figlet.preloadFonts([font], ready);
-
 function rainbow(string, seed) {
   return lolcat
     .rainbow(
