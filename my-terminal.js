@@ -1,5 +1,6 @@
 import { COMMANDS, data, cwd } from './constant.js';
 
+const font = 'Slant';
 figlet.defaults({ fontPath: 'https://cdn.jsdelivr.net/npm/figlet/fonts' });
 figlet.preloadFonts([font], ready);
 
