@@ -1,5 +1,8 @@
 import { COMMANDS, data, cwd } from './constant.js';
 
+figlet.defaults({ fontPath: 'https://cdn.jsdelivr.net/npm/figlet/fonts' });
+figlet.preloadFonts([font], ready);
+
 function prompt() {
   return `<green>${data.USER}@${data.SERVER}</green>:<orange>${cwd}</orange>$ `;
 }
