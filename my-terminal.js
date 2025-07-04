@@ -58,8 +58,6 @@ term.on('click', '.command', function () {
   term.exec(cmd);
 });
 
-const font = 'Slant';
-
 function render(text) {
   const cols = term.cols();
   return trim(
